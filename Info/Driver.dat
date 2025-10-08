@@ -1,0 +1,34 @@
+14
+#D unknown
+#N Current OpenGL Driver
+#D 3Dfx Voodoo
+#N 3Dfx Voodoo OpenGL Driver
+#D 3Dfx Voodoo2
+#N 3Dfx Voodoo2 OpenGL Driver
+#D 3Dfx Banshee
+#N 3Dfx Voodoo Banshee OpenGL Driver
+#D nVIDIA Riva128
+#N nVIDIA Riva128 OpenGL Driver
+#D nVIDIA Riva128ZX
+#N nVIDIA Riva128ZX OpenGL Driver
+#D nVIDIA RivaTNT
+#N nVIDIA RivaTNT OpenGL Driver
+#D Matrox G200
+#N Matrox G200 OpenGL Driver
+#D 3dlabs Permedia2
+#N 3Dlabs Permedia2 OpenGL Driver
+#D Intel i740
+#N Intel i740 OpenGL Driver
+#D Rendition Verite2000
+#N Rendition Verite2000 OpenGL Driver
+#D Rendition Verite2200
+#N Rendition Verite220 OpenGL Driver
+#D Nec PowerVR
+#N NEC PowerVR OpenGL Driver
+#D Other
+#N Other New 3d Acceleration Card...
+4
+640 480 16
+800 600 16
+1024 768 16
+Current Screen Resolution

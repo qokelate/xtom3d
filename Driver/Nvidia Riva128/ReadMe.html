@@ -1,0 +1,342 @@
+<HTML>
+<!-- Lotus Domino Web Server (Release 4.6a - Nov  3 1997 on Windows NT/Intel) -->
+<HEAD>
+</HEAD>
+<BODY TEXT="000000" BGCOLOR="ffffff">
+
+<P><IMG SRC="/Marketing/Developer/OpenDrvDwn.nsf/d54c3cb0f49c00af8825667c0080de02/$Body/0.2c?OpenElement&FieldElemFormat=gif" WIDTH=361 HEIGHT=146><BR>
+
+<TABLE BORDER=0 CELLSPACING=0>
+<TR></TR>
+
+<TR></TR>
+
+<TR></TR>
+
+<TR></TR>
+
+<TR></TR>
+
+<TR></TR>
+
+<TR VALIGN=top><TD WIDTH="144"><B><FONT FACE="Arial">File Size:</FONT></B></TD><TD WIDTH="462"><FONT FACE="Arial"></FONT><FONT FACE="Arial"> KB</FONT></TD></TR>
+
+<TR VALIGN=top><TD WIDTH="144"><B><FONT FACE="Arial">File:</FONT></B></TD></TR>
+</TABLE>
+<BR>
+<TT>Release 2.77 Release Notes</TT><BR>
+<BR>
+<TT>This driver is Release 2.77 of the NVIDIA Reference Driver. <BR>
+This release of the display driver is to be used with boards <BR>
+based on the RIVA128 and RIVA 128ZX chips. This release <BR>
+includes drivers for both WinNT4.0 and Win95/98 in either an <BR>
+AGP or PCI configuration. This Reference Driver is supplied <BR>
+to board manufacturers for their use in developing fully <BR>
+supported drivers customized for their specific board <BR>
+configuration. While we expect this driver to operate <BR>
+correctly on RIVA based boards, we are not able to provide <BR>
+full product support for other manufacturers products. It is <BR>
+recommended that end users install the drivers supplied from <BR>
+their board manufacturer to receive full product support.</TT><BR>
+<BR>
+<TT>This release includes support for DirectX 6.0 (DX6), multi-<BR>
+monitor configurations, and AMD CPUs with 3DNow!.</TT><BR>
+<BR>
+<TT>If you were using a Win95 driver from a board manufacturer <BR>
+that also provided a Control Panel applet, (like Diamond's <BR>
+InControl Tools, STB's Vision, etc.) that applet will not <BR>
+work correctly with the NVIDIA Reference Driver and can <BR>
+cause system problems. It should be removed before these <BR>
+new drivers are installed. (See Installing from non-NVIDIA <BR>
+drivers, below.)</TT><BR>
+<BR>
+<TT>System Requirements to use the NVIDIA Reference Drivers</TT><BR>
+<BR>
+<TT>Win95 System requirements:<BR>
+- OSR2 for full AGP functionality (which includes Microsoft's <BR>
+ &nbsp; &nbsp;OPENGL32.DLL)<BR>
+- Microsoft's OPENGL32.DLL<BR>
+- Microsoft's Dx5 or greater<BR>
+- 2MB disk space</TT><BR>
+<BR>
+<TT>Win98 System requirements<BR>
+- Microsoft's Dx5 or greater<BR>
+- 2MB disk space</TT><BR>
+<BR>
+<TT>WinNT System requirements:<BR>
+- Service Pack 3 <BR>
+- 2MB disk space</TT><BR>
+<BR>
+<TT>Downloading the NVIDIA Reference Drivers: </TT><BR>
+<BR>
+<TT>To download the Release 2.77 Reference Drivers begin by <BR>
+clicking on the correct driver version for your system. </TT><BR>
+<BR>
+<TT>select WIN9xPCI.ZIP to install drivers on Win95 PCI systems<BR>
+select WIN95AGP.ZIP to install drivers on Win95 AGP systems</TT><BR>
+<TT>select WIN98ALL.ZIP to install drivers on Win98 AGP or PCI </TT><BR>
+<TT> &nbsp; systems<BR>
+select NT40R128.ZIP to install drivers on WinNT systems</TT><BR>
+<BR>
+<TT>This will download the compressed driver to your system. <BR>
+Save it in a temporary directory on your system disk.</TT><BR>
+<BR>
+<TT>	example: c:\RIVA128</TT><BR>
+<BR>
+<TT>The following sections will help you install our latest <BR>
+Win95/98 or WinNT display drivers which include the </TT><BR>
+<TT>OpenGL ICD driver.</TT><BR>
+<BR>
+<TT>Win95 Installation Information: </TT><BR>
+<BR>
+<TT>Before installing the new drivers it is recommended </TT><BR>
+<TT>that you have a copy of your current drivers, usually </TT><BR>
+<TT>supplied with your board. </TT><BR>
+<BR>
+<TT>If not previously installed, you will need to install <BR>
+these on your system first:</TT><BR>
+<BR>
+<TT>1. OSR2 or later for AGP systems (usually pre-installed <BR>
+ &nbsp; on AGP systems). &nbsp;<BR>
+2. Install Dx5 or greater. This is contained in your </TT><BR>
+<TT> &nbsp; board vendors drivers, on the Microsoft web site, or </TT><BR>
+<TT> &nbsp; on a recent DirectX application. It is recommended </TT><BR>
+<TT> &nbsp; you install the latest Service Pack from Microsoft. </TT><BR>
+<TT> &nbsp; You can obtain this by browsing for &quot;Support Drivers, </TT><BR>
+<TT> &nbsp; Patches and Service Packs&quot; \ &quot;Windows 95 Updates&quot; &nbsp;from: &nbsp; &nbsp;</TT><BR>
+<BR>
+<TT> &nbsp; </TT><TT><a href="http://www.microsoft.com/msdownload/default.htm">http://www.microsoft.com/msdownload/default.htm</a></TT><BR>
+<BR>
+<TT>3. If you have OSR2 or later installed on your system </TT><BR>
+<TT> &nbsp; you should already have Microsoft's OPENGL32.DLL </TT><BR>
+<TT> &nbsp; installed on your system. If you do not already have </TT><BR>
+<TT> &nbsp; a version of OPENGL32.DLL in your Windows\System, or </TT><BR>
+<TT> &nbsp; you have another &nbsp; &nbsp;vendor specific OPENGL32.DLL file </TT><BR>
+<TT> &nbsp; installed, you need to install Microsoft's OPENGL32.DLL. </TT><BR>
+<TT> &nbsp; You can obtain this file and other required files from:</TT><BR>
+<BR>
+<TT> &nbsp; </TT><TT><a href="ftp://ftp.microsoft.com/Softlib/MSLFILES/opengl95.exe">ftp://ftp.microsoft.com/Softlib/MSLFILES/opengl95.exe</a></TT><BR>
+<BR>
+<TT>When you are ready: </TT><BR>
+<BR>
+<TT>4. Unzip WIN95xxx.ZIP to an empty folder (such as </TT><BR>
+<TT> &nbsp; &nbsp; &nbsp; C:\RIVA128).<BR>
+5. Close all programs <BR>
+6. Install the driver using the Display Properties </TT><BR>
+<TT> &nbsp; &nbsp; &nbsp;dialog box:<BR>
+ &nbsp; &nbsp; &nbsp;<BR>
+ &nbsp; &nbsp; &nbsp;Click Start, then Settings, then Control Panel.<BR>
+ &nbsp; &nbsp; &nbsp;Start the &quot;Display&quot; applet program. <BR>
+ &nbsp; &nbsp; &nbsp;Select the &quot;Settings&quot; tab<BR>
+ &nbsp; &nbsp; &nbsp;Push the &quot;Change Display Type&quot; button (or the </TT><BR>
+<TT> &nbsp; &nbsp; &nbsp; &nbsp; &quot;Advanced Properties&quot; button).<BR>
+ &nbsp; &nbsp; &nbsp;Push the &quot;Change&quot; button in the &quot;Adapter Type&quot; </TT><BR>
+<TT> &nbsp; &nbsp; &nbsp; &nbsp; area.<BR>
+ &nbsp; &nbsp; &nbsp;The &quot;Select Device&quot; dialog box will appear, push </TT><BR>
+<TT> &nbsp; &nbsp; &nbsp; &nbsp; the &quot;Have Disk&quot; button.<BR>
+ &nbsp; &nbsp; &nbsp;Specify the path to the new unzipped driver by <BR>
+ &nbsp; &nbsp; &nbsp; &nbsp; pressing &quot;Browse.&quot;. <BR>
+ &nbsp; &nbsp; &nbsp;After selecting the correct path press &quot;OK&quot;. <BR>
+ &nbsp; &nbsp; &nbsp;Click &quot;OK.&quot;<BR>
+	Click &quot;Next.&quot;<BR>
+	Click &quot;Finish.&quot;<BR>
+ &nbsp; &nbsp; &nbsp;Close down the open windows.</TT><BR>
+<BR>
+<TT>7. After successfully installing the reference drivers, </TT><BR>
+<TT> &nbsp; you will need to restart the operating system for the </TT><BR>
+<TT> &nbsp; new drivers to take effect.</TT><BR>
+<BR>
+<TT>Windows 98 Installation Information</TT><BR>
+<BR>
+<TT>1.Unzip WIN9xxxx.ZIP to an empty folder (such as <BR>
+	C:\RIVA128).<BR>
+2. Close all programs <BR>
+3. Install the driver using the Display Properties <BR>
+	dialog box:<BR>
+ &nbsp; Click Start, then Settings, then Control Panel.<BR>
+ &nbsp; Start the &quot;Display&quot; applet program. <BR>
+ &nbsp; Select the &quot;Settings&quot; tab.<BR>
+ &nbsp; Push the &quot;Advanced Properties&quot; button.<BR>
+ &nbsp; Select the &quot;Adapter&quot; tab.<BR>
+ &nbsp; Push the &quot;Change&quot; button.<BR>
+ &nbsp; Push the &quot;Next&quot; button.<BR>
+ &nbsp; Select the radio button labeled &quot;Display a list of </TT><BR>
+<TT>	all the drivers in a specific location.&quot; <BR>
+ &nbsp; Push the &quot;Have Disk&quot; button and specify the location <BR>
+ &nbsp; &nbsp; &nbsp;where you unzipped the files. &nbsp;The system should </TT><BR>
+<TT> &nbsp; &nbsp; &nbsp;find a .inf file in the location you specify. &nbsp;<BR>
+ &nbsp; Press &quot;OK&quot;. <BR>
+ &nbsp; Click &quot;OK.&quot;<BR>
+ &nbsp; Click &quot;Next.&quot;<BR>
+ &nbsp; Click &quot;Finish.&quot;<BR>
+ &nbsp; Close down the open windows.<BR>
+7. After successfully installing the reference drivers, <BR>
+ &nbsp; you will need to restart the operating system <BR>
+ &nbsp; for the new drivers to take effect.</TT><BR>
+<BR>
+<BR>
+<TT>WinNT Installation Information:</TT><BR>
+<BR>
+<TT>Before installing the new drivers it is recommended </TT><BR>
+<TT>that you have a copy of your current drivers, usually </TT><BR>
+<TT>supplied with your board. </TT><BR>
+<BR>
+<TT>If not previously installed, you will need to install </TT><BR>
+<TT>this on your system first:</TT><BR>
+<BR>
+<TT>1. Install Microsoft's Service Pack 3 for Windows </TT><BR>
+<TT>NT 4.0 on your system. You can obtain this by browsing </TT><BR>
+<TT>for &quot;Support Drivers, Patches and Service Packs&quot; \ <BR>
+&quot;Windows NT Service Packs&quot; &nbsp;from: &nbsp; &nbsp;</TT><BR>
+<BR>
+<TT> </TT><TT><a href="http://www.microsoft.com/msdownload/default.htm">http://www.microsoft.com/msdownload/default.htm</a></TT><TT><BR>
+	<BR>
+When you are ready: <BR>
+2. Unzip NT.ZIP to an empty folder. <BR>
+3. Close all programs<BR>
+4. Choose NT's Start\Settings\Control Panel\Display\<BR>
+ &nbsp; &nbsp; &nbsp;Settings\Display Type\Change\Have Disk\Browse.<BR>
+5. Locate the folder with the unzipped reference </TT><BR>
+<TT>	drivers...Display should list NVidia RIVA 128 </TT><BR>
+<TT> &nbsp; &nbsp; &nbsp;Release 2.77<BR>
+6. After NT successfully installs the reference drivers, <BR>
+ &nbsp; you will need to restart the operating system for <BR>
+ &nbsp; the new drivers to take effect.</TT><BR>
+<BR>
+<TT>Installing from non-NVIDIA drivers:</TT><BR>
+<BR>
+<TT>If you are installing the NVIDIA Reference Drivers and <BR>
+presently have non-NVIDIA supplied drivers installed, </TT><BR>
+<TT>it is recommended that you uninstall your existing </TT><BR>
+<TT>driver's Control Panel tools before installing the </TT><BR>
+<TT>NVIDIA Reference Drivers. Our driver does not include </TT><BR>
+<TT>the hooks in it to support the tools provided by other </TT><BR>
+<TT>board manufacturers. As a result, their tools will not </TT><BR>
+<TT>operate correctly with the NVIDIA Reference Drivers and </TT><BR>
+<TT>could cause system problems if you try to use them with </TT><BR>
+<TT>our drivers. The best way to uninstall drivers is to use </TT><BR>
+<TT>an uninstall utility provided by your board manufacturer. </TT><BR>
+<TT>Please contact them for information on how to uninstall </TT><BR>
+<TT>their tools. </TT><BR>
+<BR>
+<TT>Uninstalling NVIDIA drivers:</TT><BR>
+<BR>
+<TT>If you have a need to do this, first start by uninstalling <BR>
+Control Freak. To do this use the Add/Remove Programs <BR>
+dialog box:</TT><BR>
+<BR>
+<TT> &nbsp; Click Start, then Settings, then Control Panel.<BR>
+ &nbsp; Start the &quot;Add/Remove Programs&quot; applet program. <BR>
+ &nbsp; Select Control Freak, and click &quot;Add/Remove&quot;.<BR>
+ &nbsp; You will now be able to re-install your original driver <BR>
+ &nbsp; &nbsp; &nbsp;on the system.</TT><BR>
+<BR>
+<TT>General information for all users.</TT><BR>
+<BR>
+<TT>About OpenGL:<BR>
+The NVIDIA Reference Driver Release 2.77 includes our <BR>
+latest version of the OpenGL ICD for RIVA 128 and </TT><BR>
+<TT>RIVA 128ZX. This OpenGL ICD is now available for both </TT><BR>
+<TT>Windows 95 and Windows NT. &nbsp;It accelerates rendering of </TT><BR>
+<TT>OpenGL applications when:</TT><BR>
+<TT><BR>
+ &nbsp;- Display is set to 16-bits per pixel<BR>
+ &nbsp;- Enough video memory exists to support the OpenGL </TT><BR>
+<TT> &nbsp; &nbsp; &nbsp; &nbsp;resolution requested<BR>
+ &nbsp;- Microsoft's OPENGL32.DLL is correctly installed</TT><BR>
+<BR>
+<TT>Several pre-release versions of the OpenGL ICD have <BR>
+previously been made available through the Internet. <BR>
+This version should be much more stable, and should <BR>
+perform better in almost all cases.</TT><BR>
+<BR>
+<TT>Microsoft's OpenGL will auto-detect that the RIVA </TT><BR>
+<TT>products have hardware-accelerated OpenGL available, </TT><BR>
+<TT>and use that whenever possible. &nbsp;If OpenGL applications </TT><BR>
+<TT>complain about missing required DLL's, or if you are </TT><BR>
+<TT>seeing unusual OpenGL behavior, then it is likely that </TT><BR>
+<TT>either you are missing OPENGL32.DLL, or that an </TT><BR>
+<TT>application shipped with a version of OPENGL32.DLL that </TT><BR>
+<TT>is not compatible with the RIVA OpenGL ICD. &nbsp;You should </TT><BR>
+<TT>look in the application's directory for a file called </TT><BR>
+<TT>OPENGL32.DLL, and rename it. The application will then </TT><BR>
+<TT>use the OPENGL32.DLL from the Windows\System or </TT><BR>
+<TT>WinNT\System32 directory. You also can obtain the correct <BR>
+OPENGL32.DLL is by re-installing it from the WindowsNT CD.</TT><BR>
+<BR>
+<TT>About Control Freak:</TT><BR>
+<BR>
+<TT>Also included in the NVIDIA Reference Drivers is our <BR>
+Control Panel applet, Control Freak. This applet adds a <BR>
+RIVA tab to the Display Properties Dialog box. There are <BR>
+several useful controls and setting information here. To <BR>
+learn what each setting can do, just right click on the <BR>
+setting to get an information box.</TT><BR>
+<BR>
+<TT>Additional information:</TT><BR>
+<BR>
+<TT>The files included with the Release 2.77 Reference </TT><BR>
+<TT>Drivers:</TT><BR>
+<BR>
+<TT>PCI files<BR>
+NV3.VXD<BR>
+NV3API.DLL <BR>
+NV3DD32.DLL<BR>
+NV3DISP.DRV<BR>
+NV3DISP.INF<BR>
+NV3MINI2.VXD <BR>
+NV3OGL.DLL<BR>
+NV3QTWK.DLL<BR>
+NV3RM.VXD<BR>
+NV3SYS.DLL<BR>
+NV3TWEAK.DLL<BR>
+NV3TWEAK.HLP<BR>
+NV3TWEAK.INF</TT><BR>
+<BR>
+<TT>AGP files:<BR>
+NV3.VXD	<BR>
+NV3AGP.INF	<BR>
+NV3API.DLL	<BR>
+NV3DD32.DLL<BR>
+NV3DISP.DRV	<BR>
+NV3MINI2.VXD<BR>
+NV3OGL.DLL<BR>
+NV3QTWK.DLL	<BR>
+NV3RM.VXD	<BR>
+NV3SYS.DLL<BR>
+NV3TWEAK.DLL	<BR>
+NV3TWEAK.HLP	<BR>
+NV3TWEAK.INF	<BR>
+VGARTD.VXD	</TT><BR>
+<BR>
+<TT>NT 4.0 files:<BR>
+NV3OGLNT.DLL<BR>
+NV_DISP.DLL<BR>
+NV_MINI.SYS<BR>
+NV_DISP.INF</TT><BR>
+<BR>
+<TT>Modes supported in Release 2.77</TT><BR>
+<BR>
+<TT>These are the Win95 and WinNT modes now supported by <BR>
+the drivers in Release 2.0:</TT><BR>
+<BR>
+<TT>Resolution &nbsp;Bit Depth &nbsp; Refresh Rates</TT><BR>
+<BR>
+<TT>320x200 &nbsp; &nbsp; 8,16,32 &nbsp; &nbsp; 70,72,75,85,100,120 &nbsp; &nbsp; (DDraw only)<BR>
+320x240 &nbsp; &nbsp; 8,16,32 &nbsp; &nbsp; 60,70,72,75,85,100,120 &nbsp;(DDraw only)<BR>
+400x300 &nbsp; &nbsp; 8,16,32 &nbsp; &nbsp; 60,70,72,75,85,100,120 &nbsp;(DDraw only)<BR>
+480x360 &nbsp; &nbsp; 8,16,32 &nbsp; &nbsp; 60,70,72,75,85,100,120 &nbsp;(DDraw only)<BR>
+512x384 &nbsp; &nbsp; 8,16,32 &nbsp; &nbsp; 60,70,72,75,85,100,120 &nbsp;(DDraw only)<BR>
+640x400 &nbsp; &nbsp; 8,16,32 &nbsp; &nbsp; 70,72,75,85,100,120 &nbsp; &nbsp; (DDraw only)<BR>
+640x480 &nbsp; &nbsp; 8,16,32 &nbsp; &nbsp; 60,70,72,75,85,100,120	<BR>
+800x600 &nbsp; &nbsp; 8,16,32 &nbsp; &nbsp; 60,70,72,75,85,100,120		<BR>
+960x720 &nbsp; &nbsp; 8,16,32 &nbsp; &nbsp; 60,70,72,75,85,100,120 &nbsp;(DDraw only)<BR>
+1024x768 &nbsp; &nbsp;8,16,32 &nbsp; &nbsp; 60,70,72,75,85,100,120		<BR>
+1152x864 &nbsp; &nbsp;8,16,32 &nbsp; &nbsp; 60,70,72,75,85,100,120		<BR>
+1280x1024 &nbsp; 8,16,32* &nbsp; &nbsp;60,70,72,75,85,100,120		<BR>
+1600x1200 &nbsp; 8,16,32* &nbsp; &nbsp;60,70,72,75,85	<BR>
+1920x1080 &nbsp; 8,16* &nbsp; &nbsp; &nbsp; 60,70,72,75,85	<BR>
+1920x1200 &nbsp; 8,16* &nbsp; &nbsp; &nbsp; 60,70,72,75<BR>
+1880x1440 &nbsp; 8,16* &nbsp; &nbsp; &nbsp; 60</TT><BR>
+<BR>
+<TT>* requires 8MB graphics buffer</TT>

@@ -1,0 +1,13 @@
+# InputDevice
+FONT: Arial Bold
+FHeight: 115
+FWidth:  2
+# AudioDevice
+a0: Music Volume
+a1: Sound Volume
+# VideoDevice
+v0: Display Driver
+v1: Screen Resolution
+v2: Gamma Correction
+# WarningMessage
+wm: File을 Read / Write할 수 없습니다. File이 있는지와 File의 속성을 바꿔주십시오.
