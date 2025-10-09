@@ -1,64 +1,89 @@
-Xtom3D is a tipycal 3D arcade shooter.
-You can experience feeling of arcade game center.
+IPXWrapper README
+=================
 
-°·System Requirements =================================================
+Introduction
+------------
 
- Pentium 200MHz and 32MB main memory or higher
- Windows 95/98/NT
- 16bit DirectX compatible Soundcard
- Modem / Network Game Support
- OpenGL(tm) Compatible Hardware 3D Accelerator
-   Recommended : 3Dfx - Voodoo, Voodoo2, Voodoo3, Banshee
-                 nVIDIA - Riva128, RivaZX, RivaTNT
-                 s3 - Savage3D, Savage4, Blade3D
-                 ATI - Rage128, RageFury
-                 Matrox - M3D, Millenium G200
-                 Intel - 740
-                 3DLabs - Permedia3, Permedia2, GlintTX, Oxygen
+IPXWrapper allows using software that needs IPX/SPX support on recent versions
+of Windows which no longer support it.
 
-°·Start Game ==========================================================
+Quick start
+-----------
 
-   Run "Xtom3D.Exe" in installed Directory.
+Copy the four included DLL files to the directory containing the program that
+needs it and run dplay-setup.exe (only required for DirectPlay games).
 
-°·Default Control Settings ============================================
+Choosing network interfaces
+---------------------------
 
-   Player 1                 Player2
+By default, IPXWrapper will operate on all network interfaces in the system,
+which may not work correctly if you share more than one network with any other
+systems running IPXWrapper.
 
-     Move  :     Up            W
-             Left  Right     A   D
-                Down           S
+To instead use a single network interface, change the "Primary interface" to
+the interface you want to use. Some software may also require you to select the
+interface in question inside it. Disabling all other interfaces may make this
+easier.
 
-   Primary
-      Fire :     [         Left Shift
+Using a DOSBox IPX server
+-------------------------
 
- Secondary
-      Fire :     ]          Left Ctrl
+You can choose to use a DOSBox IPX server to communicate with other hosts
+rather than exchanging packets directly, either to allow play over the Internet
+or communication between Windows and DOS games (running under DOSBox).
 
-	ESC	   : configuration menu
+To enable this, select the "DOSBox UDP encapsulation" option in ipxconfig and
+enter the address/port of your DOSBox server.
 
-	[Joystick 1]			[Joystick 2]
+**NOTE**: SPX connections are not supported when using this option.
 
-	(* You can change control settings in option menu. *)
+Using the real IPX protocol
+---------------------------
 
-°·Trouble Shooting ====================================================
+If your software needs to send/receive real IPX frames, for example because it
+talks to an old piece of equipment that only understands IPX, install WinPcap
+and select the "Real IPX encapsulation" option in ipxconfig.
 
-  1. Make sure that you have installed correct OpenGL driver for your
-     3D Accelerator. Check 'vedio calibration' in option menu.
-  2. Some filtering effects may not work on a few hardware.
-	 Toggle filtering options in configuration menu.
-  3. You must install DirectX(Ver. 5.0 or higher) before start game.
-  4. If game initializing failed, try this.
-     1) Copy [stage.cfg] file from game root directory.
-     2) And paste it into '[game root]\info' directory.
-     3) After doing this, game detail level will set to poor environment.
-     4) You can re-configure detail level.
-  5. If you have other troubles, please report us.
+**NOTE**: SPX connections are not supported when using this option.
 
-	 * E-mail to: jhpark@jamie.co.kr
+Compatibility
+-------------
 
-	 * Visit our homepage: http://www.jamie.co.kr
-                           http://www.jamie.co.kr/xtom3d/index.html
+Software that uses WinSock 1.x and/or DirectPlay (before version 8) is supported.
 
+The following have been reported to work:
 
+ * Atomic Bomberman
+ * Call to Power II
+ * Carmageddon
+ * Carmageddon II
+ * Command & Conquer: Red Alert 2
+ * Darkstone: Evil Reigns
+ * Delta Force 2
+ * Diablo
+ * FIFA: Road to World Cup 98
+ * Hardwar: The Future Is Greedy
+ * Heroes of Might and Magic III
+ * Laser Arena
+ * Machines: Wired for War
+ * Need For Speed III - Hot Pursuit
+ * Outlive
+ * Rising Lands
+ * Rival Realms
+ * Sid Meier's Alpha Centauri
+ * Star Wars Episode I: Racer
+ * Star Wars Jedi Knight: Dark Forces II
+ * Street Wars: Constructor Underworld/Mob Rule
+ * Theme Hospital
+ * Total Annihilation
+ * Twisted Metal 2
+ * Virtua Cop
+ * Warcraft II
+ * War Wind
+ * War Wind II: Human Onslaught
 
-                   JAMIE SYSTEM DEVELOPMENT
+License
+-------
+
+Copyright (C) 2008-2025 Daniel Collins <solemnwarning@solemnwarning.net>
+Read license.txt for licensing terms.
